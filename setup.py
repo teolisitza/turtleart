@@ -11,4 +11,7 @@ setup(name='turtleart',
               'qturtle = turtleart.scripts.qturtle:main'
           ]
       },
+      install_requires=[
+          'ipython',
+      ]
      )
